@@ -13,7 +13,7 @@ export function Default({ stack }: StackContext) {
     path: "packages/web",
     bind: [api],
     environment: {
-      NEXT_PUBLIC_BUCKET_NAME: api.url,
+      API_URL: api.url,
     },
   });
 

@@ -8,7 +8,7 @@ export function Default({ stack }: StackContext) {
       "GET /session": "packages/functions/src/session.handler",
     },
   });
-
+//Site
   const site = new NextjsSite(stack, "site", {
     path: "packages/web",
     bind: [api],
